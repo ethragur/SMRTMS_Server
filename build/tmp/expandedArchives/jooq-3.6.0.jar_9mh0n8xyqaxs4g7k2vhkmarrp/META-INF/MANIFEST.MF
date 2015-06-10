@@ -1,0 +1,66 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: 1.7.0_65 (Oracle Corporation)
+Built-By: lukaseder
+Build-Jdk: 1.7.0_65
+Export-Package: org.jooq.tools;uses:="org.jooq.exception,org.jooq.type
+ s,org.jooq.tools.jdbc,org.jooq,org.apache.log4j,org.slf4j,org.jooq.im
+ pl,org.jooq.conf";version="3.6.0",org.jooq.util.derby;uses:="org.jooq
+ .impl,org.jooq.types,org.jooq";version="3.6.0",org.jooq.util.sqlite;u
+ ses:="org.jooq.impl,org.jooq,org.jooq.types";version="3.6.0",org.jooq
+ .api.annotation;version="3.6.0",org.jooq.util.firebird;uses:="org.joo
+ q.impl,org.jooq.types,org.jooq";version="3.6.0",org.jooq.types;uses:=
+ "org.jooq.tools";version="3.6.0",org.jooq.util.mariadb;uses:="org.joo
+ q.impl,org.jooq,org.jooq.types";version="3.6.0",xjb;version="3.6.0",o
+ rg.jooq.util.h2;uses:="org.jooq.impl,org.jooq.types,org.jooq";version
+ ="3.6.0",org.jooq.conf;uses:="javax.xml.bind.annotation,javax.xml.bin
+ d,javax.xml.namespace,org.jooq.tools";version="3.6.0",org.jooq.except
+ ion;uses:="org.jooq.tools";version="3.6.0",org.jooq.util.cubrid;uses:
+ ="org.jooq.impl,org.jooq,org.jooq.types";version="3.6.0",org.jooq.too
+ ls.reflect;version="3.6.0",org.jooq.util.hsqldb;uses:="org.jooq.impl,
+ org.jooq.types,org.jooq";version="3.6.0",org.jooq.impl;uses:="org.joo
+ q.exception,org.jooq,org.jooq.conf,org.jooq.util.sqlite,org.jooq.tool
+ s.jdbc,org.jooq.tools,javax.xml.bind.annotation,javax.xml.bind,javax.
+ xml.namespace,org.jooq.util.h2,javax.sql,org.jooq.types,org.jooq.util
+ .postgres,org.jooq.tools.reflect,org.jooq.tools.csv,org.jooq.tools.js
+ on,org.xml.sax,javax.xml.parsers,org.w3c.dom,org.xml.sax.helpers,org.
+ jooq.util.derby,org.jooq.util.firebird,org.jooq.util.mariadb,org.jooq
+ .util.cubrid,org.jooq.util.hsqldb,org.jooq.util.mysql,javax.persisten
+ ce,javax.xml.transform,javax.xml.transform.stream,javax.xml.transform
+ .dom";version="3.6.0",org.jooq.tools.csv;version="3.6.0",org.jooq.uti
+ l.mysql;uses:="org.jooq.impl,org.jooq,org.jooq.types";version="3.6.0"
+ ,org.jooq.util.postgres;uses:="org.jooq.impl,org.jooq,org.jooq.types,
+ org.jooq.exception,org.jooq.tools.reflect";version="3.6.0",xsd;versio
+ n="3.6.0",org.jooq.tools.jdbc;uses:="org.jooq,org.jooq.impl,javax.sql
+ ,org.jooq.conf,org.jooq.tools,org.jooq.types";version="3.6.0",org.joo
+ q;uses:="org.jooq.exception,javax.sql,org.jooq.conf,org.jooq.tools.jd
+ bc,org.xml.sax,org.jooq.impl,org.w3c.dom,org.jooq.tools,javax.xml.bin
+ d";version="3.6.0",org.jooq.tools.json;version="3.6.0"
+Bundle-Version: 3.6.0
+Tool: Bnd-0.0.357
+Bundle-Name: jOOQ
+Bnd-LastModified: 1429709462698
+Bundle-ManifestVersion: 2
+Bundle-Description: jOOQ effectively combines complex SQL, typesafety,
+  source code generation, active records,        stored procedures, ad
+ vanced data types, and Java in a fluent, intuitive DSL.
+Bundle-License: http://www.jooq.org/inc/LICENSE.txt
+Bundle-SymbolicName: jooq
+Import-Package: javax.persistence;resolution:=optional,javax.sql,javax
+ .xml.bind,javax.xml.bind.annotation,javax.xml.namespace,javax.xml.par
+ sers,javax.xml.transform,javax.xml.transform.dom,javax.xml.transform.
+ stream,org.apache.log4j;resolution:=optional,org.jooq;version="[3.6,4
+ )",org.jooq.api.annotation;version="[3.6,4)",org.jooq.conf;version="[
+ 3.6,4)",org.jooq.exception;version="[3.6,4)",org.jooq.impl;version="[
+ 3.6,4)",org.jooq.tools;version="[3.6,4)",org.jooq.tools.csv;version="
+ [3.6,4)",org.jooq.tools.jdbc;version="[3.6,4)",org.jooq.tools.json;ve
+ rsion="[3.6,4)",org.jooq.tools.reflect;version="[3.6,4)",org.jooq.typ
+ es;version="[3.6,4)",org.jooq.util.cubrid;version="[3.6,4)",org.jooq.
+ util.derby;version="[3.6,4)",org.jooq.util.firebird;version="[3.6,4)"
+ ,org.jooq.util.h2;version="[3.6,4)",org.jooq.util.hsqldb;version="[3.
+ 6,4)",org.jooq.util.mariadb;version="[3.6,4)",org.jooq.util.mysql;ver
+ sion="[3.6,4)",org.jooq.util.postgres;version="[3.6,4)",org.jooq.util
+ .sqlite;version="[3.6,4)",org.slf4j;version="[1.6,2)",org.w3c.dom,org
+ .xml.sax,org.xml.sax.helpers,xjb;version="[3.6,4)",xsd;version="[3.6,
+ 4)"
+

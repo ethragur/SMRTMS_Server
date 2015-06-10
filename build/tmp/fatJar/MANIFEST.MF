@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+Implementation-Title: Server for the TreasureHunt App
+Implementation-Version: 0.1
+Main-Class: server.Main
+

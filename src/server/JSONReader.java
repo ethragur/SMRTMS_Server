@@ -4,7 +4,7 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 
-import server.Token;
+import server.tokens.Token;
 
 import com.google.gson.Gson;
 /**
